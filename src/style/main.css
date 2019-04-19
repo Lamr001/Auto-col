@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
+@import url("https://fonts.googleapis.com/css?family=Yellowtail");
+@import url("https://fonts.googleapis.com/css?family=Barlow");
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 20px; }
+
+section {
+  background: rgba(0, 0, 0, 0.9);
+  min-height: 100%; }
+
+h1, h2, h3, h4, h5 {
+  font-family: "Yellowtail", cursive; }
+
+h1 {
+  font-size: 4rem; }
+
+p {
+  font-family: "Barlow", sans-serif;
+  text-align: justify; }
+
+nav {
+  background: linear-gradient(#1a1a1a 0%, rgba(26, 26, 26, 0.4) 100%);
+  box-shadow: -7px 12px 12px 10px rgba(26, 26, 26, 0.4);
+  z-index: 2000; }
+  nav .navbar-brand {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2.4rem; }
+  nav .nav-link {
+    font-family: "Yellowtail", cursive;
+    font-size: 1.5rem; }
+
+#intro {
+  z-index: -1; }
+
+#intro-text {
+  z-index: 2000; }
+
+#listing-intro {
+  background: url("./img/listing-intro.jpg"); }
+
+.nav-link {
+  transition: all 0.4s ease; }
+  .nav-link:hover, .nav-link:focus {
+    background: rgba(255, 255, 255, 0.4);
+    transition: all 0.4s ease; }
+
+.carousel-item img {
+  filter: brightness(15%); }
+
+.card {
+  background: #0d0d0d;
+  color: white; }
+
+footer {
+  background: #0d0d0d;
+  min-height: 25%; }
+  footer .container {
+    height: inherit; }
+  footer #footer-text {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2.4rem; }
