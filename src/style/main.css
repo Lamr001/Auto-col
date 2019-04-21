@@ -34,11 +34,17 @@ nav {
 #intro {
   z-index: -1; }
 
+#article {
+  min-height: 100%; }
+
+.car-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/card-1.jpg") no-repeat fixed left/cover; }
+
+.intro-listing {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/listing-intro.jpg"); }
+
 #intro-text {
   z-index: 2000; }
-
-#listing-intro {
-  background: url("./img/listing-intro.jpg"); }
 
 .nav-link {
   transition: all 0.4s ease; }
@@ -49,9 +55,20 @@ nav {
 .carousel-item img {
   filter: brightness(15%); }
 
+#prev-car {
+  min-height: 60%; }
+  #prev-car img {
+    filter: brightness(100%); }
+
 .card {
   background: #0d0d0d;
   color: white; }
+
+#page-nav {
+  margin-top: 5%; }
+  #page-nav li > a {
+    background: #0d0d0d;
+    color: white; }
 
 footer {
   background: #0d0d0d;
@@ -61,3 +78,21 @@ footer {
   footer #footer-text {
     font-family: 'Permanent Marker', cursive;
     font-size: 2.4rem; }
+
+#intro-hidden {
+  display: none; }
+
+@media (max-width: 790px) {
+  #intro {
+    order: 2; }
+  #intro-text {
+    display: none !important; }
+  #intro-hidden {
+    display: block;
+    order: 1; }
+  #intro-text {
+    justify-content: center;
+    align-items: center; }
+  #intro-content {
+    justify-content: center;
+    align-items: center; } }

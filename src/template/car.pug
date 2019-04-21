@@ -23,21 +23,65 @@ html
             #nav-toggler.collapse.navbar-collapse
               ul.navbar-nav.nav-pills.nav-fill.ml-auto
                 li.nav-item
-                  a.nav-link.text-white.ml-1.pr-4.pl-4(href='#') Home
+                  a.nav-link.text-white.ml-1.pr-4.pl-4(href='index.html') Home
                 li.nav-item
-                  a.nav-link.text-white.ml-1.pr-4.pl-4(href='#') Cars listing
+                  a.nav-link.text-white.ml-1.pr-4.pl-4(href='listing.html') Cars listing
                 li.nav-item
                   a.nav-link.text-white.ml-1.pr-4.pl-4(href='#') Contact
                 
 
-        section#intro.container-fluid.p-0.position-relative
+        section#intro.container-fluid.p-0.position-relative.car-1.col-12
             #intro-text.position-absolute.text-white.d-flex.justify-content-start.align-items-end.w-100.h-100
-                    #intro-content.d-flex.justify-content-center.align-items-start.flex-column.m-5
-                        h1 New collection car
-                        h2 Now avalaible on website!
-                        p.
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                    #intro-content.d-flex.flex-column.m-5
+                        h1 Lorem Ipsum
+                        h2 Incididunt ut labore et dolore
+        
+
+        section#article.container-fluid.text-white
+          article.container
+            h1.text-center.pt-3 Lorem Ipsum
+            p.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              
+            p.
+              Vestibulum malesuada tortor id sem aliquet, at facilisis dolor ultrices. Ut ullamcorper magna nec iaculis aliquam. Vestibulum purus ante, efficitur sed mi quis, tristique consequat libero. Sed sodales ipsum ante, eu efficitur metus ornare id. Fusce pretium, libero vitae pellentesque ultrices, quam leo faucibus quam, et vulputate ex augue ut lacus. In ac urna at erat fringilla lobortis. Cras blandit dui vel posuere luctus. Proin convallis est ipsum. Donec sed ex porta, ultricies enim quis, rutrum libero. Nam aliquet magna sed nulla vulputate, vitae posuere turpis rutrum. Nulla at sodales elit. Pellentesque sed lobortis diam, nec dapibus enim. Curabitur ipsum ex, mattis a nibh in, mollis condimentum dui.
+
+            p.
+              Duis a euismod leo. Etiam eu felis ac orci pharetra sollicitudin in in sem. Cras elementum odio felis, sed sodales sapien pulvinar eget. Aliquam ultricies tortor ut massa pellentesque ultrices. Nam diam leo, lacinia at odio et, suscipit condimentum ligula. Pellentesque id mattis est. Vivamus vel erat sagittis, euismod felis bibendum, finibus odio. Quisque fermentum leo vel sem viverra tempor. Nullam iaculis egestas dolor, nec mollis dui convallis id.
+
+            p.
+              Proin tristique, quam id aliquet rhoncus, erat lorem aliquam neque, non pharetra sem metus ac ante. Nam congue ex non elit tincidunt euismod. Sed pretium neque ante, ut fermentum risus eleifend nec. Integer faucibus lectus sit amet elit porttitor, eget fringilla magna pellentesque. Phasellus fermentum purus augue, a sollicitudin arcu varius vitae. Ut in scelerisque leo. Quisque id gravida nulla. Vivamus convallis magna elit, vel eleifend metus luctus ut. Phasellus porttitor nisl id lobortis rutrum. Cras sit amet dolor at est luctus faucibus. Fusce tincidunt, sapien in semper gravida, metus ligula pellentesque nulla, et hendrerit sapien mauris non justo. Aliquam sollicitudin ornare finibus. Nulla commodo, odio eu volutpat vehicula, mi ex sodales purus, sed aliquet dolor enim eu orci. Fusce quam risus, accumsan in nulla sodales, finibus luctus tortor. Fusce tincidunt in tellus sed ultricies. Aliquam id venenatis justo.
+
+            p.mb-0.pb-5.
+              Aenean mattis dolor vitae sagittis aliquet. Donec eleifend sodales risus id lacinia. Morbi varius quam id massa sagittis, aliquet vestibulum ipsum bibendum. Integer non consectetur nisi. Donec nec nisi gravida, venenatis ipsum sit amet, auctor lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim rhoncus faucibus. Fusce gravida ex ipsum, et pulvinar nulla dictum eget. Proin euismod, est id convallis porta, mi neque euismod quam, a mollis tortor nisl vitae felis. Quisque at nulla et libero mattis euismod in eget erat. Nam id lorem et enim dictum semper. Sed at mi nibh. Duis diam tellus, sodales nec porttitor a, semper sed dui. Aliquam facilisis tellus vel magna vulputate aliquam. Quisque luctus, odio vitae mollis dictum, lacus purus luctus nunc, id gravida nunc ligula id erat. Fusce vel neque porttitor, volutpat dolor nec, semper velit.
+
+
+        section#prev-car.container-fluid.h-25
+          .row
+            #prev-car-carousel.carousel.slide.col-12.col-md-6.m-auto(data-ride='carousel')
+              ol.carousel-indicators
+                li.active(data-target="#prev-car-carousel" data-slide-to="0")
+                li(data-target="#prev-car-carouselr" data-slide-to="1")
+                li(data-target="#prev-car-carousel" data-slide-to="2")
+              .carousel-inner
+                .carousel-item.active
+                  img.d-block.w-100(src='./img/card-1.jpg', alt='')
+                .carousel-item
+                  img.d-block.w-100(src='./img/card-1.jpg', alt='')
+                .carousel-item
+                  img.d-block.w-100(src='./img/card-1.jpg', alt='')
+                     
+              a.carousel-control-prev(href='#prev-car-carousel', role='button', data-slide='prev')
+                span.carousel-control-prev-icon(aria-hidden='true')
+                span.sr-only Previous
+              a.carousel-control-next(href='#prev-car-carousel', role='button', data-slide='next')
+                span.carousel-control-next-icon(aria-hidden='true')
+                span.sr-only Next
 
 
         footer.container-fluid.d-table

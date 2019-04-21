@@ -23,14 +23,14 @@ html
             #nav-toggler.collapse.navbar-collapse
               ul.navbar-nav.nav-pills.nav-fill.ml-auto
                 li.nav-item
-                  a.nav-link.text-white.ml-1.pr-4.pl-4(href='#') Home
+                  a.nav-link.text-white.ml-1.pr-4.pl-4(href='index.html') Home
                 li.nav-item
                   a.nav-link.text-white.ml-1.pr-4.pl-4(href='listing.html') Cars listing
                 li.nav-item
                   a.nav-link.text-white.ml-1.pr-4.pl-4(href='#') Contact
                 
 
-        section#intro#intro-listing.container-fluid.p-0.position-relative
+        section#intro.intro-listing.container-fluid.p-0.position-relative
             #intro-text.position-absolute.text-white.d-flex.justify-content-center.align-items-center.w-100.h-100
                     #intro-content.d-flex.justify-content-center.align-items-center.flex-column
                         h1 Cars listing
@@ -46,7 +46,44 @@ html
                         h1.text-white Collection
 
                     .row.d-flex.justify-content-around
-                        .card.col-5.mt-5.text-center
+                        .card.col-md-5.mt-5.text-center
+                          img.card-img-top(src='./img/card-1.jpg', alt='Card title')
+                          .card-body.d-flex.flex-column.justify-content-between
+                            h5.card-title Lorem ipsum
+                            p.card-text.
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            a.btn.btn-secondary(href='car.html') See more
+
+                        .card.col-md-5.mt-5.text-center
+                          img.card-img-top(src='./img/card-2.jpg', alt='Card title')
+                          .card-body.d-flex.flex-column.justify-content-between
+                            h5.card-title Lorem ipsum
+                            p.card-text.
+                              Praesent eget mattis massa. Nam vel porta dui. Mauris nunc leo, pretium vel convallis in, faucibus vitae risus. Cras semper aliquet arcu et laoreet. Morbi lobortis nunc sit amet rhoncus laoreet. Etiam nec turpis vitae urna gravida lacinia non in neque. Etiam posuere faucibus scelerisque. Nam nibh felis, ultricies finibus massa a, semper pulvinar justo.
+                            a.btn.btn-secondary(href='#') See more
+
+                        .card.col-md-5.p-0.mt-5.text-center
+                          img.card-img-top(src='./img/card-3.jpg', alt='Card title')
+                          .card-body.d-flex.flex-column.justify-content-between
+                            h5.card-title Lorem ipsum
+                            p.card-text.
+                              Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur leo orci, molestie non varius id, accumsan sed sem. Nulla eget sapien arcu. Curabitur quis posuere nunc, a dapibus sapien. Sed porta pulvinar convallis. Suspendisse commodo elit vitae nisl mattis tristique. Curabitur aliquam eleifend magna ut eleifend. Vivamus vitae turpis est. Pellentesque finibus, nunc et varius iaculis, nunc erat egestas felis, id faucibus nulla sem id diam. Proin lobortis, massa in molestie convallis, orci mauris suscipit orci, in pretium est lacus a enim. Vivamus in hendrerit elit.
+                            a.btn.btn-secondary(href='#') See more
+
+                        .card.col-md-5.p-0.mt-5.text-center
+                          img.card-img-top(src='./img/card-4.jpg', alt='Card title')
+                          .card-body.d-flex.flex-column.justify-content-between
+                            h5.card-title Lorem ipsum
+                            p.card-text.
+                              Nam eget scelerisque risus, ac rhoncus ligula. Integer auctor pretium facilisis. Nam placerat dui metus, vel pulvinar ipsum volutpat ut. Suspendisse quis nisl molestie tortor consequat scelerisque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In vel quam nec sem pellentesque ullamcorper quis blandit elit. Curabitur congue semper nisl sed consectetur. Curabitur in est feugiat, condimentum elit id, volutpat orci. Nam viverra sit amet nisl eu semper. Quisque libero magna, accumsan nec velit et, aliquet sollicitudin dolor. Cras semper vel augue at dignissim.
+                            a.btn.btn-secondary(href='#') See more
+
+                        .card.col-md-5.mt-5.text-center
                           img.card-img-top(src='./img/card-1.jpg', alt='Card title')
                           .card-body.d-flex.flex-column.justify-content-between
                             h5.card-title Lorem ipsum
@@ -59,7 +96,7 @@ html
                               proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                             a.btn.btn-secondary(href='#') See more
 
-                        .card.col-5.mt-5.text-center
+                        .card.col-md-5.mt-5.text-center
                           img.card-img-top(src='./img/card-2.jpg', alt='Card title')
                           .card-body.d-flex.flex-column.justify-content-between
                             h5.card-title Lorem ipsum
@@ -67,7 +104,7 @@ html
                               Praesent eget mattis massa. Nam vel porta dui. Mauris nunc leo, pretium vel convallis in, faucibus vitae risus. Cras semper aliquet arcu et laoreet. Morbi lobortis nunc sit amet rhoncus laoreet. Etiam nec turpis vitae urna gravida lacinia non in neque. Etiam posuere faucibus scelerisque. Nam nibh felis, ultricies finibus massa a, semper pulvinar justo.
                             a.btn.btn-secondary(href='#') See more
 
-                        .card.col-5.p-0.mt-5.text-center
+                        .card.col-md-5.p-0.mt-5.text-center
                           img.card-img-top(src='./img/card-3.jpg', alt='Card title')
                           .card-body.d-flex.flex-column.justify-content-between
                             h5.card-title Lorem ipsum
@@ -75,7 +112,7 @@ html
                               Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur leo orci, molestie non varius id, accumsan sed sem. Nulla eget sapien arcu. Curabitur quis posuere nunc, a dapibus sapien. Sed porta pulvinar convallis. Suspendisse commodo elit vitae nisl mattis tristique. Curabitur aliquam eleifend magna ut eleifend. Vivamus vitae turpis est. Pellentesque finibus, nunc et varius iaculis, nunc erat egestas felis, id faucibus nulla sem id diam. Proin lobortis, massa in molestie convallis, orci mauris suscipit orci, in pretium est lacus a enim. Vivamus in hendrerit elit.
                             a.btn.btn-secondary(href='#') See more
 
-                        .card.col-5.p-0.mt-5.text-center
+                        .card.col-md-5.p-0.mt-5.text-center
                           img.card-img-top(src='./img/card-4.jpg', alt='Card title')
                           .card-body.d-flex.flex-column.justify-content-between
                             h5.card-title Lorem ipsum
@@ -83,29 +120,7 @@ html
                               Nam eget scelerisque risus, ac rhoncus ligula. Integer auctor pretium facilisis. Nam placerat dui metus, vel pulvinar ipsum volutpat ut. Suspendisse quis nisl molestie tortor consequat scelerisque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In vel quam nec sem pellentesque ullamcorper quis blandit elit. Curabitur congue semper nisl sed consectetur. Curabitur in est feugiat, condimentum elit id, volutpat orci. Nam viverra sit amet nisl eu semper. Quisque libero magna, accumsan nec velit et, aliquet sollicitudin dolor. Cras semper vel augue at dignissim.
                             a.btn.btn-secondary(href='#') See more
 
-                        .row.d-flex.justify-content-around
-                        .card.col-5.mt-5.text-center
-                          img.card-img-top(src='./img/card-1.jpg', alt='Card title')
-                          .card-body.d-flex.flex-column.justify-content-between
-                            h5.card-title Lorem ipsum
-                            p.card-text.
-                              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            a.btn.btn-secondary(href='#') See more
-
-                        .card.col-5.mt-5.text-center
-                          img.card-img-top(src='./img/card-2.jpg', alt='Card title')
-                          .card-body.d-flex.flex-column.justify-content-between
-                            h5.card-title Lorem ipsum
-                            p.card-text.
-                              Praesent eget mattis massa. Nam vel porta dui. Mauris nunc leo, pretium vel convallis in, faucibus vitae risus. Cras semper aliquet arcu et laoreet. Morbi lobortis nunc sit amet rhoncus laoreet. Etiam nec turpis vitae urna gravida lacinia non in neque. Etiam posuere faucibus scelerisque. Nam nibh felis, ultricies finibus massa a, semper pulvinar justo.
-                            a.btn.btn-secondary(href='#') See more
-
-                        .card.col-5.p-0.mt-5.text-center
+                        .card.col-md-5.p-0.mt-5.text-center
                           img.card-img-top(src='./img/card-3.jpg', alt='Card title')
                           .card-body.d-flex.flex-column.justify-content-between
                             h5.card-title Lorem ipsum
@@ -113,30 +128,25 @@ html
                               Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur leo orci, molestie non varius id, accumsan sed sem. Nulla eget sapien arcu. Curabitur quis posuere nunc, a dapibus sapien. Sed porta pulvinar convallis. Suspendisse commodo elit vitae nisl mattis tristique. Curabitur aliquam eleifend magna ut eleifend. Vivamus vitae turpis est. Pellentesque finibus, nunc et varius iaculis, nunc erat egestas felis, id faucibus nulla sem id diam. Proin lobortis, massa in molestie convallis, orci mauris suscipit orci, in pretium est lacus a enim. Vivamus in hendrerit elit.
                             a.btn.btn-secondary(href='#') See more
 
-                        .card.col-5.p-0.mt-5.text-center
+                        .card.col-md-5.p-0.mt-5.text-center
                           img.card-img-top(src='./img/card-4.jpg', alt='Card title')
                           .card-body.d-flex.flex-column.justify-content-between
                             h5.card-title Lorem ipsum
                             p.card-text.
                               Nam eget scelerisque risus, ac rhoncus ligula. Integer auctor pretium facilisis. Nam placerat dui metus, vel pulvinar ipsum volutpat ut. Suspendisse quis nisl molestie tortor consequat scelerisque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In vel quam nec sem pellentesque ullamcorper quis blandit elit. Curabitur congue semper nisl sed consectetur. Curabitur in est feugiat, condimentum elit id, volutpat orci. Nam viverra sit amet nisl eu semper. Quisque libero magna, accumsan nec velit et, aliquet sollicitudin dolor. Cras semper vel augue at dignissim.
                             a.btn.btn-secondary(href='#') See more
-
-                        .card.col-5.mt-5.text-center
-                          img.card-img-top(src='./img/card-2.jpg', alt='Card title')
-                          .card-body.d-flex.flex-column.justify-content-between
-                            h5.card-title Lorem ipsum
-                            p.card-text.
-                              Praesent eget mattis massa. Nam vel porta dui. Mauris nunc leo, pretium vel convallis in, faucibus vitae risus. Cras semper aliquet arcu et laoreet. Morbi lobortis nunc sit amet rhoncus laoreet. Etiam nec turpis vitae urna gravida lacinia non in neque. Etiam posuere faucibus scelerisque. Nam nibh felis, ultricies finibus massa a, semper pulvinar justo.
-                            a.btn.btn-secondary(href='#') See more
-
-                        .card.col-5.p-0.mt-5.text-center
-                          img.card-img-top(src='./img/card-3.jpg', alt='Card title')
-                          .card-body.d-flex.flex-column.justify-content-between
-                            h5.card-title Lorem ipsum
-                            p.card-text.
-                              Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur leo orci, molestie non varius id, accumsan sed sem. Nulla eget sapien arcu. Curabitur quis posuere nunc, a dapibus sapien. Sed porta pulvinar convallis. Suspendisse commodo elit vitae nisl mattis tristique. Curabitur aliquam eleifend magna ut eleifend. Vivamus vitae turpis est. Pellentesque finibus, nunc et varius iaculis, nunc erat egestas felis, id faucibus nulla sem id diam. Proin lobortis, massa in molestie convallis, orci mauris suscipit orci, in pretium est lacus a enim. Vivamus in hendrerit elit.
-                            a.btn.btn-secondary(href='#') See more
-                        
+                    nav#page-nav(aria-label="Page navigation")
+                      ul.pagination.justify-content-center
+                        li.page-item.disabled
+                          a.page-link(href="#" tabindex="-1" aria-disabled="true") Previous
+                        li.page-item
+                          a.page-link(href="#") 1
+                        li.page-item
+                          a.page-link(href="#") 2
+                        li.page-item
+                          a.page-link(href="#") 3
+                        li.page-item
+                          a.page-link(href="#") Next         
         
         footer.container-fluid.d-table
           .container.d-table-cell.align-middle.text-center.text-white
