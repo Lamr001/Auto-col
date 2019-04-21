@@ -89,7 +89,8 @@ footer {
     display: none !important; }
   #intro-hidden {
     display: block;
-    order: 1; }
+    order: 1;
+    min-height: 10%; }
   #intro-text {
     justify-content: center;
     align-items: center; }
